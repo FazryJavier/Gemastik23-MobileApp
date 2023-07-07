@@ -1,4 +1,4 @@
-#Thu Jun 29 23:46:12 WIB 2023
-base.0=D\:\\1. Mata Kuliah\\Gemastik\\belajar\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Fri Jul 07 20:58:25 WIB 2023
+base.0=D\:\\1. Mata Kuliah\\Gemastik23-MobileApp\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

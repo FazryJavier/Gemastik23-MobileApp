@@ -45,7 +45,7 @@
     },
     {
       "name": "flutter",
-      "rootUri": "file:///D:/1.%20Mata%20Kuliah/Gemastik/flutter/packages/flutter",
+      "rootUri": "file:///D:/Gemastik/flutter/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -57,7 +57,7 @@
     },
     {
       "name": "flutter_test",
-      "rootUri": "file:///D:/1.%20Mata%20Kuliah/Gemastik/flutter/packages/flutter_test",
+      "rootUri": "file:///D:/Gemastik/flutter/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -117,7 +117,7 @@
     },
     {
       "name": "sky_engine",
-      "rootUri": "file:///D:/1.%20Mata%20Kuliah/Gemastik/flutter/bin/cache/pkg/sky_engine",
+      "rootUri": "file:///D:/Gemastik/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -170,7 +170,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-06-29T16:26:26.194134Z",
+  "generated": "2023-07-07T13:11:11.647312Z",
   "generator": "pub",
   "generatorVersion": "3.0.5"
 }
