@@ -3,6 +3,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:lit_ui_kit/lit_ui_kit.dart';
 import 'package:belajar/Register.dart';
+import 'package:belajar/MainMenu.dart';
 import 'package:belajar/static/colors.dart';
 import 'package:belajar/static/input_field.dart';
 // import 'package:flutter_icons/flutter_icons.dart';
@@ -16,7 +17,7 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
-  final TextEditingController emailController = TextEditingController(text: '');
+  final TextEditingController userController = TextEditingController(text: '');
   final TextEditingController passwordController = TextEditingController(text: '');
 
   bool passwordVisible = false;
@@ -94,7 +95,7 @@ class _LoginPageState extends State<LoginPage> {
                               InputField(
                                 hintText: 'Username',
                                 suffixIcon: SizedBox(),
-                                controller: emailController,
+                                controller: userController,
                               ),
                               SizedBox(
                                 height: 12,
@@ -158,7 +159,10 @@ class _LoginPageState extends State<LoginPage> {
                       //button sign in
                       GestureDetector(
                         onTap: () {
-                          // authController.loginUser();
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => MainMenuPage()));
                         },
                         child: Container(
                           width: 180,
