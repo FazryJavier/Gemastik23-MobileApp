@@ -253,39 +253,39 @@ class _LoginPageState extends State<LoginPage> {
                                       child: Icon(Icons.g_mobiledata, size: 35)),
                                 )),
                           ),
-                          GestureDetector(
-                            //Facebook
-                            onTap: () {},
-                            child: Container(
-                                decoration: BoxDecoration(
-                                    color: textColor,
-                                    borderRadius: BorderRadius.circular(12)),
-                                child: Padding(
-                                  padding: const EdgeInsets.all(10),
-                                  child: Center(
-                                      child: Icon(
-                                    Icons.facebook,
-                                    color: Colors.blue,
-                                    size: 35,
-                                  )),
-                                )),
-                          ),
-                          GestureDetector(
-                            //twitter
-                            onTap: () {},
-                            child: Container(
-                                decoration: BoxDecoration(
-                                    color: textColor,
-                                    borderRadius: BorderRadius.circular(12)),
-                                child: Padding(
-                                  padding: const EdgeInsets.all(10),
-                                  child: Center(
-                                      child: Icon(
-                                    Icons.autofps_select_rounded,
-                                    size: 35,
-                                  )),
-                                )),
-                          ),
+                          // GestureDetector(
+                          //   //Facebook
+                          //   onTap: () {},
+                          //   child: Container(
+                          //       decoration: BoxDecoration(
+                          //           color: textColor,
+                          //           borderRadius: BorderRadius.circular(12)),
+                          //       child: Padding(
+                          //         padding: const EdgeInsets.all(10),
+                          //         child: Center(
+                          //             child: Icon(
+                          //           Icons.facebook,
+                          //           color: Colors.blue,
+                          //           size: 35,
+                          //         )),
+                          //       )),
+                          // ),
+                          // GestureDetector(
+                          //   //twitter
+                          //   onTap: () {},
+                          //   child: Container(
+                          //       decoration: BoxDecoration(
+                          //           color: textColor,
+                          //           borderRadius: BorderRadius.circular(12)),
+                          //       child: Padding(
+                          //         padding: const EdgeInsets.all(10),
+                          //         child: Center(
+                          //             child: Icon(
+                          //           Icons.autofps_select_rounded,
+                          //           size: 35,
+                          //         )),
+                          //       )),
+                          // ),
                         ],
                       ),
                         SizedBox(
