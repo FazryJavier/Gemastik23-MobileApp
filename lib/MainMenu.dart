@@ -1,4 +1,6 @@
+import 'package:belajar/static/colors.dart';
 import 'package:flutter/material.dart';
+import 'package:lit_ui_kit/lit_ui_kit.dart';
 // import 'dart:ui';
 
 class MainMenuPage extends StatefulWidget {
@@ -17,9 +19,39 @@ class _MainMenuPageState extends State<MainMenuPage> {
     });
   }
 
+  final TextEditingController _searchController = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        leading: null,
+        automaticallyImplyLeading: false,
+        backgroundColor: bgcolor,
+        title: Container(
+          width: double.infinity,
+          height: 40,
+          decoration: BoxDecoration(
+              color: Colors.white, borderRadius: BorderRadius.circular(25)
+          ),
+          child: Center(
+            child: TextField(
+              controller: _searchController,
+              style: const TextStyle(color: Colors.black),
+              cursorColor: Colors.black,
+              decoration: const InputDecoration(
+                contentPadding: EdgeInsets.fromLTRB(15, 5, 0 ,0),
+                hintText: ' Search...',
+                suffixIcon: Icon(Icons.search, color: Colors.black),
+                border: InputBorder.none,
+              ),
+              onChanged: (value) {
+                // Perform search functionality here
+              },
+            ),
+          ),
+        ),
+      ),
         bottomNavigationBar: Container(
             decoration: BoxDecoration(
                 border: Border.all(color: Colors.white, width: 6),
@@ -55,6 +87,35 @@ class _MainMenuPageState extends State<MainMenuPage> {
                         icon: Icon(Icons.person_2_rounded),
                         label: 'Home',
                       )
-                    ]))));
+                    ]
+                ),
+            )
+        ),
+        body: SafeArea(
+            child: ListView(
+                children: [
+                  Padding(
+                      padding: const EdgeInsets.all(20.0),
+                      child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+                            LitElevatedCard(
+                                child: Column(
+                                    children: [
+                                      Form(
+                                        child: Column(
+
+                                        ),
+                                      ),
+                                    ]
+                                )
+                            )
+                          ]
+                      )
+                  )
+                ]
+            )
+        ),
+    );
   }
 }

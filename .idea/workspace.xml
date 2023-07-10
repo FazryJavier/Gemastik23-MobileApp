@@ -57,9 +57,10 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="com.android.tools.idea.emulator.zoom.toolbar.visible" value="false" />
     <property name="dart.analysis.tool.window.force.activate" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/static" />
-    <property name="settings.editor.selected.configurable" value="dart.settings" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -90,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688869405361</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="register screen added and mainmenu on progress">
+      <created>1688906823588</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688906823588</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -113,6 +121,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update login screen" />
     <MESSAGE value="Update login screen 2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update login screen 2.0" />
+    <MESSAGE value="register screen added and mainmenu on progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="register screen added and mainmenu on progress" />
   </component>
 </project>

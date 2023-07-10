@@ -4,7 +4,7 @@
             "outputFile": "com.example.belajar.app-mergeDebugResources-9:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "D:\\1. Mata Kuliah\\New folder\\Gemastik23-MobileApp\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "D:\\AndroidStudioProjects\\Gemastik23-MobileApp\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
